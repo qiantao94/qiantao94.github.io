@@ -15,7 +15,7 @@ template = {
 }
 enable_jsdelivr = {
     "enabled": True,
-    "repo": "qiantao94/qiantao94.github.io@master"
+    "repo": "qiantao94/qiantao94.github.io@main"
 }
 
 # 站点设置
