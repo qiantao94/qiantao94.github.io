@@ -1,6 +1,6 @@
 #!/bin/sh
 
-git pull
+git pull origin source
 git add .
 git commit -m "Update site"
-git push
+git push origin source
