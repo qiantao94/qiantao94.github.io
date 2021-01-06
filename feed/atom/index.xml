@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><id>/</id><title>QianTao</title><updated>2021-01-06T15:22:19.795221+08:06</updated><author><name>qian.tao</name><email>qiantao94@gmail.com</email></author><link href="/" rel="alternate"/><generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator><logo>https://cdn.jsdelivr.net/gh/qiantao94/qiantao94.github.io@main/logo.png</logo><subtitle>i want sth just like this</subtitle><entry><id>/archives/typography/</id><title>Android Proguard custom naming for obfuscation</title><updated>2021-01-06T15:22:19.795281+00:00</updated><content>&lt;p&gt;After using Proguard, names of classes, members and parameters will become characters such as &lt;code&gt;a b c&lt;/code&gt;.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><id>/</id><title>QianTao</title><updated>2021-01-06T15:24:37.742959+08:06</updated><author><name>qian.tao</name><email>qiantao94@gmail.com</email></author><link href="/" rel="alternate"/><generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator><logo>https://cdn.jsdelivr.net/gh/qiantao94/qiantao94.github.io@main/logo.png</logo><subtitle>------------------</subtitle><entry><id>/archives/typography/</id><title>Android Proguard custom naming for obfuscation</title><updated>2021-01-06T15:24:37.743011+00:00</updated><content>&lt;p&gt;After using Proguard, names of classes, members and parameters will become characters such as &lt;code&gt;a b c&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;In fact, &lt;strong&gt;we can specify which characters&lt;/strong&gt; are used to replace the display after obfuscation, that is, it can be configured in &lt;code&gt;proguard-rules.pro&lt;/code&gt;&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;-obfuscationdictionary  dictionary.txt
 -classobfuscationdictionary dictionary.txt
 -packageobfuscationdictionary dictionary.txt&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;The dictionary.txt here is a plain text file similar to this:&lt;/p&gt;
+&lt;p&gt;The &lt;code&gt;dictionary.txt&lt;/code&gt; here is a plain text file similar to this:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;#dictionary.txt
 
