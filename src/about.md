@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 关于
+title: About
 slug: about
 status: publish
 date: 2020-01-04 12:50
