@@ -17,7 +17,7 @@ In fact, **we can specify which characters** are used to replace the display aft
 -packageobfuscationdictionary dictionary.txt
 ```
 
-The dictionary.txt here is a plain text file similar to this:
+The `dictionary.txt` here is a plain text file similar to this:
 
 ``` txt
 #dictionary.txt
